@@ -1,0 +1,136 @@
+html,
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+#header {
+	background-color: #24292f;
+	color: white;
+	font-size: 30px;
+	padding: 5px;
+}
+
+#avatar {
+	height: 55px;
+	width: 55px;
+}
+#form {
+	margin: 20px;
+	padding: 10px;
+	color: #24292f;
+}
+#fetch {
+	text-align: center;
+	margin: 20px;
+}
+#netflix-title {
+	text-align: center;
+}
+#repo-card {
+	border-bottom: 2px solid #24292f;
+	padding: 20px;
+	margin: 10px;
+	color: #1d57e8;
+}
+#language {
+	color: #24292f;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#commit-card {
+	color: #24292f;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#cc {
+	margin-top: 15px;
+	border-top: 2px dotted #1d57e8;
+}
+
+#commit-user {
+	color: #1d57e8;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#date {
+	color: #24292f;
+	font-size: 1em;
+}
+#message {
+	color: #24292f;
+	font-size: 1em;
+}
+#error {
+	padding-left: 50px;
+	color: red;
+	font-size: 1em;
+	text-align: center;
+}
+#netflix {
+	color: red;
+}
+
+#logo {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+#repo-button {
+	box-shadow: inset 0px 3px 7px 5px #000000;
+	background: linear-gradient(to bottom, #494f55 5%, #242424 100%);
+	background-color: #768d87;
+	border-radius: 5px;
+	border: 1px solid #566963;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 7px 10px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #2b665e;
+}
+#repo-button:hover {
+	background: linear-gradient(to bottom, #393f46 5%, #413f3f 100%);
+	background-color: #6c7c7c;
+}
+#repo-button:active {
+	position: relative;
+	top: 1px;
+}
+
+#search {
+	box-shadow: inset 0px 3px 7px 5px #000000;
+	background: linear-gradient(to bottom, #494f55 5%, #242424 100%);
+	background-color: #768d87;
+	border-radius: 5px;
+	border: 1px solid #566963;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 3px 5px;
+	text-decoration: none;
+	text-shadow: 0px -1px 0px #2b665e;
+}
+
+#search:hover {
+	background: linear-gradient(to bottom, #393f46 5%, #413f3f 100%);
+	background-color: #6c7c7c;
+}
+#search:active {
+	position: relative;
+	top: 1px;
+}
